@@ -141,7 +141,7 @@ export default function Scroll3DCard({ children, className = "", style }: Scroll
           inset: 0,
           border: "1.5px solid transparent",
           borderRadius: "inherit",
-          background: `radial-gradient(circle at ${hoverStyles.px}% ${hoverStyles.py}%, rgba(99, 102, 241, 0.25) 0%, transparent 50%) border-box`,
+          background: `radial-gradient(circle at ${hoverStyles.px}% ${hoverStyles.py}%, rgba(204, 168, 122, 0.25) 0%, transparent 50%) border-box`,
           WebkitMask: "linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0)",
           WebkitMaskComposite: "xor",
           maskComposite: "exclude",

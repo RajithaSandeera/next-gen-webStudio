@@ -33,7 +33,7 @@ export default function RootLayout({
             left: "5%",
             width: "35vw",
             height: "35vw",
-            background: "rgba(99, 102, 241, 0.08)",
+            background: "rgba(204, 168, 122, 0.05)",
           }} 
         />
         <div 
@@ -43,7 +43,7 @@ export default function RootLayout({
             right: "5%",
             width: "40vw",
             height: "40vw",
-            background: "rgba(168, 85, 247, 0.06)",
+            background: "rgba(184, 149, 118, 0.04)",
           }} 
         />
 
@@ -58,7 +58,7 @@ export default function RootLayout({
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            background: "rgba(4, 2, 10, 0.55)",
+            background: "rgba(12, 11, 10, 0.55)",
             backdropFilter: "blur(20px)",
             WebkitBackdropFilter: "blur(20px)",
             borderBottom: "1px solid var(--border-glass)",
@@ -86,10 +86,10 @@ export default function RootLayout({
               style={{
                 fontSize: "0.7rem",
                 color: "var(--color-cyan)",
-                background: "rgba(6, 182, 212, 0.1)",
+                background: "rgba(155, 168, 151, 0.1)",
                 padding: "2px 8px",
                 borderRadius: "20px",
-                border: "1px solid rgba(6, 182, 212, 0.2)",
+                border: "1px solid rgba(155, 168, 151, 0.2)",
                 fontFamily: "var(--font-mono)",
                 fontWeight: "bold",
               }}
@@ -121,8 +121,8 @@ export default function RootLayout({
                 fontSize: "0.9rem",
                 fontWeight: 600,
                 color: "#ffffff",
-                borderColor: "rgba(99, 102, 241, 0.25)",
-                background: "rgba(99, 102, 241, 0.1)",
+                borderColor: "rgba(204, 168, 122, 0.25)",
+                background: "rgba(204, 168, 122, 0.1)",
               }}
             >
               Start Project
@@ -140,7 +140,7 @@ export default function RootLayout({
           style={{
             width: "100%",
             padding: "4rem 2rem 2.5rem 2rem",
-            background: "linear-gradient(to top, #020105 0%, transparent 100%)",
+            background: "linear-gradient(to top, #0c0b0a 0%, transparent 100%)",
             borderTop: "1px solid var(--border-glass)",
             zIndex: 10,
             position: "relative",

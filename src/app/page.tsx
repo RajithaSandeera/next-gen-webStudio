@@ -35,159 +35,120 @@ const TOP_PROJECTS = [
 
 const SERVICES_DATA = [
   {
-    id: "web",
-    title: "Web Development",
-    icon: "🚀",
-    description: "Developing responsive, lightning-fast web applications built on modern frameworks with high aesthetic standards.",
-    items: [
-      "Custom Business Websites",
-      "Corporate Websites",
-      "Landing Pages",
-      "Progressive Web Apps (PWA)",
-      "E-Commerce Solutions",
-      "CMS Development",
-      "Website Maintenance & Support"
-    ],
-    color: "var(--color-primary)"
-  },
-  {
-    id: "mobile",
-    title: "Mobile App Development",
-    icon: "📱",
-    description: "Creating native and cross-platform mobile utilities with fluid gestures and multi-threaded performance.",
-    items: [
-      "Android Applications",
-      "iOS Applications",
-      "Cross-Platform Apps (Flutter, React Native)",
-      "Enterprise Mobile Solutions",
-      "App Maintenance & Optimization"
-    ],
-    color: "var(--color-cyan)"
-  },
-  {
-    id: "software",
-    title: "Custom Software Development",
-    icon: "💻",
-    description: "Tailoring enterprise systems and automation modules designed for high scalability and secure operations.",
-    items: [
-      "Enterprise Applications",
-      "SaaS Platforms",
-      "CRM Systems",
-      "ERP Systems",
-      "HRM & Payroll Systems",
-      "Inventory Management Systems",
-      "School Management Systems",
-      "Hospital Management Systems"
-    ],
-    color: "var(--color-accent)"
-  },
-  {
-    id: "cloud",
-    title: "Cloud & DevOps Solutions",
-    icon: "☁️",
-    description: "Optimizing deployments and network layers utilizing automated workflows and top cloud providers.",
-    items: [
-      "Cloud Infrastructure Setup",
-      "AWS, Azure & Google Cloud Infrastructure",
-      "CI/CD Pipeline Implementation",
-      "Docker & Kubernetes Deployment",
-      "Server Management",
-      "Monitoring & Performance Optimization"
-    ],
-    color: "var(--color-emerald)"
-  },
-  {
     id: "ai",
-    title: "AI & Automation Solutions",
+    title: "AI-Powered Business Automation",
     icon: "🤖",
-    description: "Integrating neural networks, LLMs, and custom automated scripts to maximize operational productivity.",
+    description: "Companies want to reduce manual work and improve productivity using intelligent solutions.",
     items: [
-      "AI-Powered Applications",
-      "Chatbot Development",
-      "AI Customer Support Systems",
-      "Business Process Automation",
-      "Document Processing Automation",
-      "AI Content Generation Tools"
+      "AI Customer Support Agents",
+      "AI Document Processing",
+      "AI Proposal & Report Generation",
+      "AI Meeting Summaries",
+      "AI-Powered HR Assistants"
     ],
-    color: "#e879f9"
+    color: "#b89576"
+  },
+  {
+    id: "hr",
+    title: "HR & Workforce Management Systems",
+    icon: "💼",
+    description: "Tailored workforce tracking and management applications designed for SMEs and growing enterprises.",
+    items: [
+      "Attendance Management",
+      "Leave Management",
+      "Payroll Integration",
+      "Employee Self-Service Portals",
+      "GPS Field Employee Tracking"
+    ],
+    color: "#cca87a"
+  },
+  {
+    id: "healthcare",
+    title: "Healthcare Platforms",
+    icon: "🩺",
+    description: "Robust digital medical software designed to streamline operations and enhance patient connectivity.",
+    items: [
+      "Telemedicine",
+      "Appointment Booking",
+      "Electronic Medical Records (EMR)",
+      "Pharmacy Management",
+      "Healthcare Marketplaces"
+    ],
+    color: "#9ba897"
+  },
+  {
+    id: "lms",
+    title: "Learning Management Systems (LMS)",
+    icon: "🎓",
+    description: "Online education architectures engineered for training institutions and academic organisations.",
+    items: [
+      "Online Courses",
+      "Assessments",
+      "Certificates",
+      "Student Analytics",
+      "AI Tutors"
+    ],
+    color: "#81917b"
+  },
+  {
+    id: "property",
+    title: "Property & Real Estate Platforms",
+    icon: "🏠",
+    description: "Interactive directory systems, real-estate virtual tours, and lease/agent tracking suites.",
+    items: [
+      "Property Listings",
+      "Virtual Tours",
+      "Agent Management",
+      "Rental Management",
+      "Property Valuation Tools"
+    ],
+    color: "#bda695"
+  },
+  {
+    id: "logistics",
+    title: "Logistics & Fleet Management",
+    icon: "🚚",
+    description: "End-to-end operational visibility platforms built to coordinate routes, drivers, and deliveries.",
+    items: [
+      "GPS Tracking",
+      "Route Optimization",
+      "Driver Management",
+      "Fuel Monitoring",
+      "Delivery Tracking"
+    ],
+    color: "#d1c7bd"
+  },
+  {
+    id: "erp",
+    title: "Industry-Specific ERP Systems",
+    icon: "🏭",
+    description: "Niche, custom resource planning solutions tailored for specific industrial sectors.",
+    items: [
+      "Manufacturing ERP",
+      "Construction ERP",
+      "Hotel ERP",
+      "School ERP",
+      "Healthcare ERP"
+    ],
+    color: "#b3a492"
   },
   {
     id: "ecommerce",
-    title: "E-Commerce Solutions",
+    title: "E-Commerce & Marketplace Solutions",
     icon: "🛒",
-    description: "Deploying secure, high-conversion commercial portals with fluid checkout lines and billing dashboards.",
+    description: "High-performance digital trade platforms, B2B frameworks, and AI-driven recommendation architectures.",
     items: [
-      "Online Store Development",
       "Multi-Vendor Marketplaces",
-      "Payment Gateway Integration",
-      "Subscription Platforms",
-      "Order Management Systems"
+      "B2B Commerce Platforms",
+      "Subscription Commerce",
+      "AI Product Recommendations"
     ],
-    color: "#fbbf24"
-  },
-  {
-    id: "api",
-    title: "API & Integration Services",
-    icon: "🔗",
-    description: "Structuring microservices and connecting third-party endpoints to enable seamless cross-platform syncing.",
-    items: [
-      "Third-Party API Integration",
-      "Payment Gateway Integration",
-      "ERP Integration",
-      "CRM Integration",
-      "Custom API Development",
-      "Microservices Architecture"
-    ],
-    color: "#60a5fa"
-  },
-  {
-    id: "cyber",
-    title: "Cybersecurity & Performance",
-    icon: "🔒",
-    description: "Securing codebases, hardening databases, and performing vulnerability check-ups to block intruders.",
-    items: [
-      "Security Audits",
-      "Penetration Testing",
-      "Performance Optimization",
-      "Website Hardening",
-      "Data Protection Solutions"
-    ],
-    color: "#f87171"
-  },
-  {
-    id: "data",
-    title: "Data & Analytics",
-    icon: "📊",
-    description: "Synthesizing event data into visual executive dashboards and real-time business intelligence monitors.",
-    items: [
-      "Business Intelligence Dashboards",
-      "Reporting Systems",
-      "Data Visualization",
-      "Real-Time Analytics Platforms"
-    ],
-    color: "#22d3ee"
-  },
-  {
-    id: "specialized",
-    title: "Specialized Platforms",
-    icon: "🌐",
-    description: "Engineering bespoke database directories and domain-specific booking engines for vertical markets.",
-    items: [
-      "Educational Platforms (LMS)",
-      "Matrimonial Platforms",
-      "Healthcare Platforms",
-      "Booking & Reservation Systems",
-      "Job Portals",
-      "Real Estate Platforms",
-      "Social Networking Platforms",
-      "Marketplace Platforms"
-    ],
-    color: "#f43f5e"
+    color: "#cca87a"
   }
 ];
 
 export default function Home() {
-  const [activeService, setActiveService] = useState("web");
+  const [activeService, setActiveService] = useState("ai");
   return (
     <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 2rem" }}>
       {/* ================= HERO SECTION ================= */}
@@ -207,10 +168,10 @@ export default function Home() {
           style={{
             fontSize: "0.85rem",
             color: "var(--color-cyan)",
-            background: "rgba(6, 182, 212, 0.08)",
+            background: "rgba(155, 168, 151, 0.08)",
             padding: "6px 16px",
             borderRadius: "30px",
-            border: "1px solid rgba(6, 182, 212, 0.2)",
+            border: "1px solid rgba(155, 168, 151, 0.2)",
             textTransform: "uppercase",
             letterSpacing: "0.15em",
             fontWeight: 600,
@@ -271,7 +232,7 @@ export default function Home() {
               background: "linear-gradient(90deg, var(--color-primary), var(--color-accent))",
               border: "none",
               color: "#fff",
-              boxShadow: "0 4px 20px rgba(99, 102, 241, 0.35)",
+              boxShadow: "0 4px 20px rgba(204, 168, 122, 0.25)",
             }}
           >
             Explore Projects
@@ -888,7 +849,7 @@ export default function Home() {
                 fontSize: "0.95rem",
                 cursor: "pointer",
                 alignSelf: "center",
-                boxShadow: "0 4px 20px rgba(168, 85, 247, 0.25)",
+                boxShadow: "0 4px 20px rgba(184, 149, 118, 0.2)",
               }}
             >
               Transmit Brief

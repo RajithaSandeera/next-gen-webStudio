@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
 
 :root {
-  --bg-primary: #04020a;
-  --bg-secondary: #0a0718;
-  --bg-card: rgba(15, 10, 32, 0.45);
-  --bg-card-hover: rgba(25, 18, 52, 0.65);
-  --fg-primary: #f5f3fa;
-  --fg-secondary: #a19bb6;
-  --fg-muted: #6e6789;
+  --bg-primary: #0c0b0a;
+  --bg-secondary: #121110;
+  --bg-card: rgba(26, 24, 22, 0.45);
+  --bg-card-hover: rgba(38, 35, 32, 0.65);
+  --fg-primary: #f4f0ea;
+  --fg-secondary: #bdae9c;
+  --fg-muted: #7d7568;
   
-  --color-primary: #6366f1; /* Indigo */
-  --color-primary-rgb: 99, 102, 241;
-  --color-accent: #a855f7;  /* Purple */
-  --color-accent-rgb: 168, 85, 247;
-  --color-cyan: #06b6d4;    /* Cyan */
-  --color-cyan-rgb: 6, 182, 212;
-  --color-emerald: #10b981; /* Emerald */
-  --color-emerald-rgb: 16, 185, 129;
+  --color-primary: #cca87a; /* Champagne Gold */
+  --color-primary-rgb: 204, 168, 122;
+  --color-accent: #b89576;  /* Cashmere Bronze */
+  --color-accent-rgb: 184, 149, 118;
+  --color-cyan: #9ba897;    /* Calm Sage Green */
+  --color-cyan-rgb: 155, 168, 151;
+  --color-emerald: #81917b; /* Soft Olive Green */
+  --color-emerald-rgb: 129, 145, 123;
   
-  --border-glass: rgba(255, 255, 255, 0.05);
-  --border-glass-hover: rgba(99, 102, 241, 0.25);
-  --glow-shadow: 0 0 30px rgba(99, 102, 241, 0.15);
+  --border-glass: rgba(224, 212, 194, 0.06);
+  --border-glass-hover: rgba(204, 168, 122, 0.25);
+  --glow-shadow: 0 0 30px rgba(204, 168, 122, 0.08);
   
   --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
@@ -60,12 +60,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(99, 102, 241, 0.2);
+  background: rgba(204, 168, 122, 0.15);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(99, 102, 241, 0.4);
+  background: rgba(204, 168, 122, 0.35);
 }
 
 /* Typography Utilities */
@@ -115,15 +115,15 @@ a {
 
 /* Glowing Neon Elements */
 .glow-text-primary {
-  text-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+  text-shadow: 0 0 15px rgba(204, 168, 122, 0.35);
 }
 
 .glow-text-accent {
-  text-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
+  text-shadow: 0 0 15px rgba(184, 149, 118, 0.35);
 }
 
 .glow-text-cyan {
-  text-shadow: 0 0 15px rgba(6, 182, 212, 0.5);
+  text-shadow: 0 0 15px rgba(155, 168, 151, 0.35);
 }
 
 /* Interactive Floating Animation */
@@ -165,8 +165,8 @@ a {
   position: fixed;
   inset: 0;
   background-image: 
-    linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(204, 168, 122, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(204, 168, 122, 0.02) 1px, transparent 1px);
   background-size: 50px 50px;
   background-position: center;
   mask-image: radial-gradient(circle at center, black 40%, transparent 90%);

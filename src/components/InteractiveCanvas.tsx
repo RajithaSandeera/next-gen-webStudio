@@ -43,9 +43,9 @@ export default function InteractiveCanvas() {
     const initParticles = () => {
       particles = [];
       const colors = [
-        "rgba(99, 102, 241, opacity)",  // Indigo
-        "rgba(168, 85, 247, opacity)", // Purple
-        "rgba(6, 182, 212, opacity)",   // Cyan
+        "rgba(204, 168, 122, opacity)", // Champagne Gold
+        "rgba(184, 149, 118, opacity)", // Cashmere Bronze
+        "rgba(155, 168, 151, opacity)", // Calm Sage Green
       ];
 
       for (let i = 0; i < particleCount; i++) {
@@ -189,7 +189,7 @@ export default function InteractiveCanvas() {
                 ctx.beginPath();
                 ctx.moveTo(p1.sx, p1.sy);
                 ctx.lineTo(p2.sx, p2.sy);
-                ctx.strokeStyle = `rgba(154, 149, 176, ${alpha})`;
+                ctx.strokeStyle = `rgba(197, 185, 172, ${alpha})`;
                 ctx.lineWidth = 0.5;
                 ctx.stroke();
               }
@@ -239,7 +239,7 @@ export default function InteractiveCanvas() {
         height: "100vh",
         zIndex: -1,
         pointerEvents: "none",
-        background: "radial-gradient(circle at center, #09061c 0%, #030107 100%)",
+        background: "radial-gradient(circle at center, #151311 0%, #0a0908 100%)",
       }}
     />
   );

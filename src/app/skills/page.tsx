@@ -10,22 +10,22 @@ const SKILL_CATEGORIES = {
     { name: "TypeScript", level: 92, color: "var(--color-cyan)" },
     { name: "Python", level: 85, color: "var(--color-accent)" },
     { name: "Rust", level: 75, color: "var(--color-emerald)" },
-    { name: "C++", level: 70, color: "#00599c" },
-    { name: "HTML5 / CSS3", level: 95, color: "#e34f26" },
+    { name: "C++", level: 70, color: "#b3a492" },
+    { name: "HTML5 / CSS3", level: 95, color: "#bda695" },
   ],
   frameworks: [
     { name: "React & Next.js", level: 96, color: "var(--color-primary)" },
     { name: "Node.js & Express", level: 88, color: "var(--color-cyan)" },
     { name: "WebGL & Canvas", level: 85, color: "var(--color-accent)" },
     { name: "TailwindCSS", level: 95, color: "var(--color-emerald)" },
-    { name: "Three.js", level: 80, color: "#06b6d4" },
+    { name: "Three.js", level: 80, color: "#9ba897" },
   ],
   tools: [
     { name: "Git & Versioning", level: 95, color: "var(--color-primary)" },
     { name: "Docker Containers", level: 82, color: "var(--color-cyan)" },
     { name: "AWS Cloud Services", level: 75, color: "var(--color-accent)" },
     { name: "Webpack & Vite", level: 90, color: "var(--color-emerald)" },
-    { name: "PostgreSQL & SQL", level: 85, color: "#336791" },
+    { name: "PostgreSQL & SQL", level: 85, color: "#81917b" },
   ],
 };
 
@@ -140,7 +140,7 @@ export default function Skills() {
                         right: 0,
                         height: "2px",
                         background: "linear-gradient(90deg, var(--color-primary), var(--color-cyan))",
-                        boxShadow: "0 0 10px rgba(99, 102, 241, 0.5)",
+                        boxShadow: "0 0 10px rgba(204, 168, 122, 0.35)",
                       }}
                     />
                   )}
